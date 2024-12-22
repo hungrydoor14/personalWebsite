@@ -1,0 +1,38 @@
+/* Global stuff styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: navy;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Tab stuff */
+.nav .nav-link {
+  color: navy !important;  
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #f1f1f1;
+  color: darkblue !important;
+}
+
+.nav-link.active {
+  color: white !important;
+  background-color: navy !important;
+  font-weight: bold;
+  border-color: navy !important;
+}
