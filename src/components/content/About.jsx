@@ -1,11 +1,15 @@
 import React from 'react';
 import { Container, Col, Row, Nav } from 'react-bootstrap';
 
+import "../App.css"
+
 function About() {
   return (
-    <Container >
-      <h2>About Me</h2>
-      <p>This is the About section.</p>
+    <Container fluid>
+      <h2 className="title">About Me</h2>
+      <h2 className = "subtitle">Who am I</h2>
+        <p> to be defined</p>
+
     </Container>
   );
 }

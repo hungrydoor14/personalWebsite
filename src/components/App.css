@@ -1,6 +1,5 @@
 /* Global stuff styles */
 body, html {
-  margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
@@ -10,6 +9,7 @@ body, html {
   color: navy;
   font-size: 3rem;
   font-weight: bold;
+  margin-top: 0.5rem;
 }
 
 .subtitle {
@@ -18,21 +18,106 @@ body, html {
   font-weight: bold;
 }
 
-/* Tab stuff */
+/* TOP TAB FORMATTING */
+/* nav link */
 .nav .nav-link {
   color: navy !important;  
   padding: 10px 20px;
   border-radius: 4px;
+  border-radius: 0;
 }
 
+/* nav link when hover */
 .nav-link:hover {
   background-color: #f1f1f1;
   color: darkblue !important;
+  border-radius: 0;
 }
 
+/* when active */
 .nav-link.active {
   color: white !important;
   background-color: navy !important;
   font-weight: bold;
   border-color: navy !important;
+  border-radius: 0;
 }
+
+/* FOOTER */
+/* main footer */
+.footer {
+  background-color: lightgray; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* FOOTER P TAG */
+.footer p {
+  margin: 0;
+}
+
+/* FOOTER ROW */
+.footer-row {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+/* LINKS COLUMN */
+.footer-left {
+  display: flex;
+  align-items: center; 
+}
+
+/* COPYRIGHT COLUMN */
+.footer-right {
+  text-align: right;
+}
+
+/* FOOTER ITEM */
+.footer-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+/* FOOTER ICON USED */
+.footer-icon {
+  margin-right: 10px;
+  width: 24px; 
+  height: 24px;
+}
+
+/* FOOTER BUTTON FORMATTING */
+/* button */
+.footer-button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none; 
+}
+
+/* button hover */
+.footer-button:hover {
+  opacity: 0.7; 
+}
+
+/* a tag for button */
+.footer-button a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+/* left a tag for button */
+.footer-left a {
+  text-decoration: none; 
+  color: inherit; 
+}
+

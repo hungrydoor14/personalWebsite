@@ -4,13 +4,12 @@ import { Container, Col, Row } from "react-bootstrap";
 import "../App.css"
 
 function Home() {
-  const margin_amount = 14
 
   return (
     <Container fluid>
-      <Row>
-        <Col>
-          <p className="title">Juan Jose Sandoval</p>
+      <Row>  
+        <Col md={6}>
+        <h2 className="title">Juan Jose Sandoval</h2>
           <p className="subtitle"> Studies @ UW-Madison</p>
           <p>3.5 GPA</p>
           <ul>
@@ -18,15 +17,17 @@ function Home() {
             <li>Data Science, BS</li>
             <li>History, CERT</li>
           </ul>
+
+        <h2 className = "subtitle">Skills</h2>
+          <p> to be defined</p>
           
         </Col>
 
-        <Col>
+        <Col md={6}>
           <img 
             style={{ 
-              marginTop: margin_amount,
               width: "100%", 
-              height: "100%",  
+              marginTop : 14
             }}
             src="../../figures/personal_image.png" 
             alt="Image of Juan Jose Sandoval" />
